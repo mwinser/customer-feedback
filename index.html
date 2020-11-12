@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="style.css">
 <head>
 <title>Mike's Website</title>
 </head>
 <body>
+  <div id="outline"> 
+  <div id="main">
+<header>
+  <h1 id="title">Customer Feedback
+  </h1>
+</header>
 
-<h1>Hello Internet!</h1>
-<p>This is a paragraph.</p>
+
+  <p id="description">We love hearing from our customers!</p>
+  <form id="survey-form" action="#">
+    <label for="name" id="name-label">
+    <input type="text" id="name" required placeholder="Name">
+    </input>
+    </label><br>
+        <label for="email" id="email-label">
+      <input type="email" id="email" required placeholder="Email">
+    </input>
+  </label><br>
+        <label for="number" id="number-label">
+    <input type="number" id="number" required placeholder="Rate our service (1-10)"min="1" max="10">
+    </input>
+</label><br>
+
+<label for="comments" name="comments">
+  <textarea name="comments" placeholder="Additional comments"></textarea></label><br><br>
+  <input type="submit" id="submit" value="Send Feedback"></input>
+  </form><br>
+  
+</div></div>
+</body>
 </body>
 </html>
